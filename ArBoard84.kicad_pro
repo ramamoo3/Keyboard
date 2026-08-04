@@ -1,0 +1,247 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.20,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.50,
+        "copper_text_size_v": 1.50,
+        "copper_text_thickness": 0.30,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": false,
+          "text_position": 0
+        },
+        "fab_line_width": 0.10,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.00,
+        "fab_text_size_v": 1.00,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.15,
+        "other_text_italic": false,
+        "other_text_size_h": 1.00,
+        "other_text_size_v": 1.00,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.30,
+          "height": 1.50,
+          "width": 1.50
+        },
+        "silk_line_width": 0.12,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.00,
+        "silk_text_size_v": 1.00,
+        "silk_text_thickness": 0.15,
+        "silk_text_upright": false,
+        "zones": {
+          "45_degree_only": false,
+          "min_clearance": 0.20
+        }
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.20,
+          "via_gap": 0.25,
+          "width": 0.15
+        }
+      ],
+      "drc_exclusions": [],
+      "meta": {
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "warning",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "ignore",
+        "footprint": "error",
+        "hole_clearance": "error",
+        "hole_size": "error",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "error",
+        "missing_netclass": "warning",
+        "missing_schematic": "ignore",
+        "npth_inside_courtyard": "warning",
+        "padstack": "error",
+        "shorting_items": "error",
+        "silk_overlap": "warning",
+        "text_height": "warning",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "tracks_crossing": "error",
+        "unconnected_items": "warning",
+        "via_dangling": "warning",
+        "zones_intersect": "warning"
+      },
+      "rules": {
+        "max_error": 0.005
+      },
+      "track_widths": [
+        0.20,
+        0.40,
+        0.60,
+        1.00
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.60,
+          "drill": 0.30
+        },
+        {
+          "diameter": 0.80,
+          "drill": 0.40
+        },
+        {
+          "diameter": 1.00,
+          "drill": 0.50
+        }
+      ]
+    },
+    "layer_presets": [],
+    "viewports": []
+  },
+
+  "boards": [],
+
+  "cvpcb": {
+    "equivalence_files": []
+  },
+
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+
+  "meta": {
+    "filename": "ArBoard84.kicad_pro",
+    "version": 1
+  },
+
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.20,
+        "track_width": 0.20,
+        "via_diameter": 0.60,
+        "via_drill": 0.30,
+        "wire_width": 0.15
+      },
+      {
+        "name": "POWER",
+        "clearance": 0.25,
+        "track_width": 1.00,
+        "via_diameter": 0.80,
+        "via_drill": 0.40,
+        "wire_width": 1.00
+      },
+      {
+        "name": "USB_DIFF",
+        "clearance": 0.20,
+        "track_width": 0.15,
+        "via_diameter": 0.60,
+        "via_drill": 0.30,
+        "wire_width": 0.15,
+        "diff_pair_gap": 0.20,
+        "diff_pair_width": 0.15
+      },
+      {
+        "name": "LED_DATA",
+        "clearance": 0.20,
+        "track_width": 0.20,
+        "via_diameter": 0.60,
+        "via_drill": 0.30,
+        "wire_width": 0.20
+      },
+      {
+        "name": "MATRIX",
+        "clearance": 0.20,
+        "track_width": 0.20,
+        "via_diameter": 0.60,
+        "via_drill": 0.30,
+        "wire_width": 0.20
+      }
+    ],
+
+    "meta": {
+      "version": 3
+    },
+
+    "net_colors": null
+  },
+
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
+
+    "page_layout_descr_file": "",
+
+    "plot": {
+      "auto_scale": false,
+      "exclude_edge_layer": true,
+      "mirror": false,
+      "negative": false,
+      "output_directory": "manufacturing/gerbers/",
+      "plot_frame_ref": false,
+      "sketch_pads_on_fab_layers": false,
+      "subtract_mask_from_silk": true,
+      "use_aux_origin": false
+    }
+  },
+
+  "schematic": {
+    "drawing": {
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": true,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+
+    "legacy_lib_dir": "",
+
+    "meta": {
+      "version": 1
+    }
+  },
+
+  "text_variables": {
+    "BOARD_NAME": "ArBoard84",
+    "BOARD_VERSION": "A",
+    "BOARD_SIZE": "330x135mm",
+    "MCU": "MDBT50Q-1M",
+    "PROJECT_AUTHOR": "Paradigm AI",
+    "PROJECT_NAME": "ArBoard84 Mechanical Keyboard",
+    "SWITCH_TYPE": "Kailh PG1350",
+    "LED_TYPE": "WS2812B-2020"
+  }
+}
