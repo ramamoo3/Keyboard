@@ -1,0 +1,111 @@
+(kicad_sch
+  (version 20240108)
+  (generator "ChatGPT")
+  (uuid "8b8a89d2-f8f3-4d3d-b7aa-0d7f0d9d0001")
+
+  (paper "A2")
+
+  (title_block
+    (title "ArBoard84")
+    (company "Paradigm AI")
+    (rev "A")
+    (date "2026-08-04")
+    (comment 1 "84-key Wireless Mechanical Keyboard")
+    (comment 2 "nRF52840 + USB-C + Per-Key WS2812B RGB")
+    (comment 3 "330 mm x 135 mm")
+    (comment 4 "KiCad 9")
+  )
+
+  (lib_symbols)
+
+  (sheet
+    (at 20 20)
+    (size 80 45)
+    (stroke
+      (width 0.15)
+      (type default))
+    (fill
+      (color 0 0 0 0))
+    (uuid "10000000-0000-0000-0000-000000000001")
+    (property "Sheet name" "Power")
+    (property "Sheet file" "sheets/Power.kicad_sch")
+  )
+
+  (sheet
+    (at 120 20)
+    (size 80 45)
+    (stroke
+      (width 0.15)
+      (type default))
+    (fill
+      (color 0 0 0 0))
+    (uuid "10000000-0000-0000-0000-000000000002")
+    (property "Sheet name" "USB")
+    (property "Sheet file" "sheets/USB.kicad_sch")
+  )
+
+  (sheet
+    (at 220 20)
+    (size 80 45)
+    (stroke
+      (width 0.15)
+      (type default))
+    (fill
+      (color 0 0 0 0))
+    (uuid "10000000-0000-0000-0000-000000000003")
+    (property "Sheet name" "MCU")
+    (property "Sheet file" "sheets/MCU.kicad_sch")
+  )
+
+  (sheet
+    (at 20 95)
+    (size 80 45)
+    (stroke
+      (width 0.15)
+      (type default))
+    (fill
+      (color 0 0 0 0))
+    (uuid "10000000-0000-0000-0000-000000000004")
+    (property "Sheet name" "Matrix")
+    (property "Sheet file" "sheets/Matrix.kicad_sch")
+  )
+
+  (sheet
+    (at 120 95)
+    (size 80 45)
+    (stroke
+      (width 0.15)
+      (type default))
+    (fill
+      (color 0 0 0 0))
+    (uuid "10000000-0000-0000-0000-000000000005")
+    (property "Sheet name" "RGB")
+    (property "Sheet file" "sheets/RGB.kicad_sch")
+  )
+
+  (sheet
+    (at 220 95)
+    (size 80 45)
+    (stroke
+      (width 0.15)
+      (type default))
+    (fill
+      (color 0 0 0 0))
+    (uuid "10000000-0000-0000-0000-000000000006")
+    (property "Sheet name" "Encoder")
+    (property "Sheet file" "sheets/Encoder.kicad_sch")
+  )
+
+  (sheet
+    (at 320 95)
+    (size 80 45)
+    (stroke
+      (width 0.15)
+      (type default))
+    (fill
+      (color 0 0 0 0))
+    (uuid "10000000-0000-0000-0000-000000000007")
+    (property "Sheet name" "Debug")
+    (property "Sheet file" "sheets/Debug.kicad_sch")
+  )
+)
